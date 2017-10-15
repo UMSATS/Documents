@@ -21,3 +21,4 @@ void function() {
 }
 ```
 - (Advisory) When working with *.ino files (i.e. Arduino), place as little code in the *.ino file as possible, and as much code into *.c and *.h files as possible. This is to make moving code from Arduino to the actual board as painless as possible.
+mm
