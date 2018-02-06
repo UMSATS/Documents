@@ -1,0 +1,7 @@
+# Unwanted LaTeX outputs #
+#################
+*.aux
+*.log
+*.synctex.gz
+*.synctex.gz(busy)
+*.toc
