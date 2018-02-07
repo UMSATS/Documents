@@ -3,6 +3,13 @@
 \usepackage{float}
 \usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
 \usepackage{enumitem}% http://ctan.org/pkg/enumitem
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	linkcolor={black!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
 
 \usepackage{tikz}
 \usepackage{circuitikz} %Circuit drawing tools
@@ -30,20 +37,19 @@
 	\begin{titlepage}
 		\centering
 		\includegraphics[width=0.7\textwidth]{"logo"}\par\vspace{1cm}
-		%{\scshape\LARGE Columbidae University \par}
+
 		\vspace{1cm}
-		%{\scshape\Large Final year project\par}
+
 		\vspace{1.5cm}
 		{\huge\bfseries Altium Guide\par}
 		\vspace{2cm}
 		{\Large\itshape UMSATS\par}
 		\vfill
-		%supervised by\par
-		Author:\\ Aleksa Svitlica%Dr.~Mark \textsc{Brown}
+
+		Author:\\ Aleksa Svitlica
 		\par		
 		\vfill
 		
-		% Bottom of the page
 		{\large Last Updated: February 6, 2018\par}
 	\end{titlepage}
 	\tableofcontents
@@ -119,7 +125,17 @@
 		\label{fig 6}
 	\end{figure}
 	
-	
+	\subsection{Parts Libraries}
+	\subsubsection{Importing}
+	I would recommend downloading the libraries Altium provides on their \href{http://techdocs.altium.com/display/ADOH/Download+Libraries}{website}. It is much easier to work with preexisting models since making components is a hassle. You can store the libraries anywhere on your computer and import the ones you need in your project. Click on Place-$>$Part... and then select Choose. This will bring up a menu like in the picture below, click on the three dots to the left of find. bring up the library import menu. After importing, the libraries will be selectable in the menu seen below and individual parts can be selected.
+	\begin{figure}[H]	
+		\centering
+		\includegraphics[width=16cm, height=8cm]{library.png}
+		\caption{Browsing libraries.}
+		\label{fig 7}
+	\end{figure}
+
+	\subsubsection{Custom}
 	\newpage
 	\section{Making Schematics}
 	\section{Routing}
