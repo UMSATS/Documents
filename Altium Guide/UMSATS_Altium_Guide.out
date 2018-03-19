@@ -1,9 +1,22 @@
-\BOOKMARK [1][-]{section.1}{Getting Started}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Creating a new PCB project}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Create a PCB file}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Layer Stack Manager}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Parts Libraries}{section.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.4.1}{Importing}{subsection.1.4}% 6
-\BOOKMARK [3][-]{subsubsection.1.4.2}{Custom}{subsection.1.4}% 7
-\BOOKMARK [1][-]{section.2}{Making Schematics}{}% 8
-\BOOKMARK [1][-]{section.3}{Routing}{}% 9
+\BOOKMARK [0][-]{chapter*.1}{Contents}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Getting Started}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Creating a new PCB project}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Create a PCB file}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Layer Stack Manager}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Parts Libraries}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Importing Libraries}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Custom Components [TODO]}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{PCB Libraries [TODO]}{section.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Creating Holes/Pads}{subsection.2.2.1}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Defining the Outline[TODO]}{subsection.2.2.1}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.1.3}{3D Body[TODO]}{subsection.2.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Schematic Libraries}{section.2.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Making Schematics}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Placing Components}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Placing the MCU}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.2}{Placing Other Components}{section.3.1}% 18
+\BOOKMARK [3][-]{subsubsection.3.1.2.1}{Ground and Voltage}{subsection.3.1.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.1.2.2}{Resistors, Capacitors and Inductors}{subsection.3.1.2}% 20
+\BOOKMARK [2][-]{subsection.3.1.3}{Adding Ports}{section.3.1}% 21
+\BOOKMARK [0][-]{chapter.4}{Routing}{}% 22
